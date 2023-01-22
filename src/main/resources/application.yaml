@@ -1,0 +1,7 @@
+ktor:
+  development: false
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - br.com.gabrielmorais.ServerKt.server
